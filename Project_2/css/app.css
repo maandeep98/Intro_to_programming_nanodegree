@@ -1,0 +1,51 @@
+.page-head {
+    height: auto;
+    width: 100%;
+    border: solid 2px;
+    margin-bottom: 1.5%;
+    background-color: lightcoral;
+}
+
+.notes-head {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.div-lesson {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#lesson-head {
+    height: 100%;
+    width: 20%;
+    border: 2px;
+    overflow: hidden;
+}
+
+.lesson {
+    padding: 1%;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    float: left;
+    width: 74%;
+    background-color: rgba(220,220,220,0.5);
+}
+
+.lesson-heads {
+    height: 100%;
+    margin-bottom: 214%;
+    overflow: hidden;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.head {
+    font-size: 120%;
+    font-weight: bold;
+    color: lightcoral;
+}
+
+.div-lesson {
+    background-color: rgb(240,240,240);
+}
