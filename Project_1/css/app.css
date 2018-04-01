@@ -1,0 +1,26 @@
+body {
+    background-color: whitesmoke;
+}
+
+.page-head {
+    text-align: center;
+    color: darkslategrey;
+}
+
+.lesson {
+    color: red;
+    text-align: center;
+    font-size: 160%;
+    font-weight: bold;
+}
+
+.head {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 2.5%;
+}
