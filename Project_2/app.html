@@ -12,14 +12,83 @@
         BASICS OF PROGRAMMING
     </h1>
 </div>
+<div class="catalog">
+    <ol>
+        <li>
+            <a href="#l1">
+                Lesson 1: The basics of HTML and web
+            </a>
+            <ul>
+                <li>
+                    <a href="#hww">
+                        How Web works
+                    </a>
+                </li>
+                <li>
+                    <a href="#html">
+                        HTML
+                    </a>
+                </li>
+                <li>
+                    <a href="#tae">
+                        Tags and Elements
+                    </a>
+                </li>
+                <li>
+                    <a href="#wcas">
+                        Why computers are stupid?
+                    </a>
+                </li>
+                <li>
+                    <a href="#ivb">
+                        Inline vs Block Elements
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#l2">
+                Lesson 2: Creating a structured document with HTML
+            </a>
+            <ul>
+                <li>
+                    <a href="#dt">
+                        Developer's Tools
+                    </a>
+                </li>
+                <li>
+                    <a href="#tls">
+                        The "Tree-like Structure" of HTML
+                    </a>
+                </li>
+                <li>
+                    <a href="#boxes">
+                        The relationship between indented HTML and boxes
+                    </a>
+                </li>
+                <li>
+                    <a href="#te">
+                        Text Editors
+                    </a>
+                </li>
+                <li>
+                    <a href="#tee">
+                        Download Text Editors
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ol>
+</div>
+<div id="me">
 <div class="div-lesson">
     <div class="lesson" id="lesson-head">
-        <p class="lesson-heads">
+        <p class="lesson-heads" id="l1">
             Lesson 1: The basics of HTML and web
         </p>
     </div>
     <div class="lesson">
-        <p class="head">
+        <p class="head" id="hww">
             How web works
         </p>
         <p class="content">
@@ -30,7 +99,7 @@
         </p>
     </div>
     <div class="lesson">
-        <p class="head">
+        <p class="head" id="html">
             HTML
         </p>
         <p class="content">
@@ -40,7 +109,7 @@
         </p>
     </div>
     <div class="lesson">
-        <p class="head">
+        <p class="head" id="tae">
             Tags and Elements
         </p>
         <p class="content">
@@ -49,7 +118,7 @@
         </p>
     </div>
     <div class="lesson">
-        <p class="head">
+        <p class="head" id="wcas">
             Why computers are stupid?
         </p>
         <p class="content">
@@ -58,7 +127,7 @@
         </p>
     </div>
     <div class="lesson">
-        <p class="head">
+        <p class="head" id="ivb">
             Inline vs Block Elements
         </p>
         <p class="content">
@@ -67,41 +136,71 @@
         </p>
     </div>
 </div>
-<p class="lesson-heads">
-    Lesson 2: Creating a Structured Document with HTML
-</p>
-<p class="head">
-    Developer Tools (in the Browser)
-</p>
-<p class="content">
-    HTML elements are either inline or block.
-    Block elements form an <em>"invisible box"</em> around the content inside of them.
-</p>
-<p class="head">
-    The "tree-like structure" of HTML
-</p>
-<p class="content">
-    The <em>"tree-like structure"</em> comes from the fact that HTML elements can have other elements inside of them.
-    You can draw this relationship like a family tree.
-    My mother had multiple children.
-    So did her mother, and so on...
-    In a browser, this structure shows up as a series of nested boxes.
-    There are boxes inside of boxes inside of boxes, and so on...
-</p>
-<p class="head">
-    The relationship between indented HTML and boxes
-</p>
-<p class="content">
-    When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document.
-    The more indented an element is, the more deeply nested it's corresponding "box" is.
-</p>
-<p class="head">
-    Text Editors (for programming)
-</p>
-<p class="content">
-    When writing code, programmers use special text editors (like Sublime Text for example).
-    These editors make the programmer's life easier.
-    For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
-</p>
+
+<div class="div-lesson">
+    <div class="lesson" id="lesson-head">
+        <p class="lesson-heads" id="l2">
+            Lesson 2: Creating a Structured Document with HTML
+        </p>
+    </div>
+    <div class="lesson">
+        <p class="head" id="dt">
+            Developer Tools (in the Browser)
+        </p>
+        <p class="content">
+            HTML elements are either inline or block.
+            Block elements form an <em>"invisible box"</em> around the content inside of them.
+        </p>
+    </div>
+    <div class="lesson">
+        <p class="head" id="tls">
+            The "tree-like structure" of HTML
+        </p>
+        <p class="content">
+            The <em>"tree-like structure"</em> comes from the fact that HTML elements can have other elements inside of them.
+            You can draw this relationship like a family tree.
+            My mother had multiple children.
+            So did her mother, and so on...
+            In a browser, this structure shows up as a series of nested boxes.
+            There are boxes inside of boxes inside of boxes, and so on...
+        </p>
+    </div>
+    <div class="lesson">
+        <p class="head" id="boxes">
+            The relationship between indented HTML and boxes
+        </p>
+        <p class="content">
+            When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document.
+            The more indented an element is, the more deeply nested it's corresponding "box" is.
+        </p>
+    </div>
+    <div class="lesson">
+        <p class="head" id="te">
+            Text Editors (for programming)
+        </p>
+        <p class="content">
+            When writing code, programmers use special text editors (like Sublime Text for example).
+            These editors make the programmer's life easier.
+            For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+        </p>
+    </div>
+    <div class="lesson">
+        <p class="head" id="tee">
+            Some text editors
+        </p>
+        <div class="div-content">
+            <a href="https://www.sublimetext.com/">
+                <img src="./img/sublime.jpg" class="icons">
+            </a>
+            <a href="https://www.jetbrains.com/webstorm/">
+                <img src="./img/webstorm.png" class="icons">
+            </a>
+            <a href="https://atom.io/">
+                <img src="./img/atom.png" class="icons">
+            </a>
+        </div>
+    </div>
+</div>
+</div>
 </body>
 </html>
