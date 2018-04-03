@@ -26,11 +26,15 @@
     overflow: hidden;
 }
 
-#lesson-head {
+.lesson-head {
     height: 100%;
     width: 20%;
+    float: left;
     border: 2px;
     overflow: hidden;
+    padding: 1%;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    background-color: rgba(220,220,220,0.5);
 }
 
 .lesson {
