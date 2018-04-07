@@ -36,7 +36,7 @@ def ask_for_level():
     elif level.lower() == "hard":
         return hard_ques, hard_ans, "hard"
     else:
-        print "Please select a valid difficulty leve;"
+        print "Please select a valid difficulty level"
         return ask_for_level()
 
 def set_punc(fib_string):
