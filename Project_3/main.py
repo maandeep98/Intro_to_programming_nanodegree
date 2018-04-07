@@ -28,7 +28,7 @@ hard_ans = ["Martin", "McCann", "PARTIE", "RUSSELL", "RUSSELL", "RUSSELL",
                 "RUSSELL", "Canada"]
 def ask_for_level():
     """Ask the user to choose the difficulty level."""
-    level = raw_input("\nPlease select the difficulty")
+    level = input("\nPlease select the difficulty")
     if level.lower() == "easy":
         return easy_ques, easy_ans, "easy"
     elif level.lower() == "medium":
@@ -36,7 +36,7 @@ def ask_for_level():
     elif level.lower() == "hard":
         return hard_ques, hard_ans, "hard"
     else:
-        print "Please select a valid difficulty level"
+        print ("Please select a valid difficulty level")
         return ask_for_level()
 
 def set_punc(fib_string):
@@ -62,23 +62,23 @@ def check(blank_number, fib, answers, answer):
     to fill in the next blank. Prompts the user to try again when their guess
     is incorrect."""
     blank = "___" + str(blank_number) + "___"
-    guess = raw_input("Please fill in blank #" + str(blank_number) +
+    guess = input("Please fill in blank #" + str(blank_number) +
                       " (case-sensitive): ")
     if guess == answer:
         fib[fib.index(blank)] = answer
-        print remove_spaces_before_punc(" ".join(fib)) + "\n"
+        print (set_punc(" ".join(fib)) + "\n")
         blank_number += 1
         return blank_number
     else:
-        print "Incorrect. Please try again.\n"
-        return guess_check(blank_number, fib, answers, answer)
+        print ("Incorrect. Please try again.\n")
+        return check(blank_number, fib, answers, answer)
 
 def main():
     """Start the game"""
     fib, answers, level = ask_for_level()
     print ("\nHere is the fill-in-the-blank for the " + level + " difficulty "
            "level:")
-    print set_punc(" ".join(fib)) + "\n"
+    print (set_punc(" ".join(fib)) + "\n")
 
     blank_number = 1
     for answer in answers:
@@ -86,6 +86,6 @@ def main():
 
     print ("Congratulations, you have filled in all of the blanks! Here is the"
            " link to the call:")
-    print links(level) + "\n"
+    print (links(level) + "\n")
 
 main()
