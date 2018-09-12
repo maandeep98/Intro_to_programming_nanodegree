@@ -46,6 +46,7 @@ def set_punc(fib_string):
     return fib_string
 
 def links(level):
+	"""Getting youtube links on the basis of level"""
     if level == "easy":
         return "https://www.youtube.com/watch?v=-F5HwiGm7lg"
     if level == "medium":
